@@ -10,7 +10,7 @@
     that don't come from third party libraries. This file gets compiled using
     Gulp and send to the /css folder which is then loaded on the page.
 */
-/*
+/**
     File Contents:
 
         1. Variables
@@ -647,6 +647,7 @@ footer {
     overflow: hidden;
     background: #fff;
     border-radius: 4px;
+    min-height: 200px;
 }
 
 .project-image {
@@ -664,7 +665,7 @@ footer {
         font-size: 1.5em;
         font-weight: 300;
         color: $heading;
-        margin: 0 0 15px 0;
+        margin: 0;
     }
 
     p {
@@ -672,6 +673,11 @@ footer {
         margin: 0 0 15px 0;
         font-size: 0.9em;
     }
+}
+
+.project-date {
+    color: #74808a;
+    margin: 0 0 15px 0;
 }
 
 .no-image {
